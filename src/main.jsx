@@ -10,9 +10,9 @@ import { DataProvider } from './Data'
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
-        <DataProvider>
+        {/* <DataProvider> */}
         <RouterProvider router={router} ></RouterProvider>
-        </DataProvider>
+        {/* </DataProvider> */}
     {/* <App /> */}
   </React.StrictMode>,
 )

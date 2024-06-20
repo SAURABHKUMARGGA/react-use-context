@@ -1,8 +1,9 @@
 import React from 'react'
-
+import { useOutletContext } from 'react-router-dom'
 function Gallery() {
+  const data = useOutletContext();
   return (
-    <div>Gallery</div>
+    <div>Gallery {data.name}</div>
   )
 }
 

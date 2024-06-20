@@ -1,10 +1,10 @@
 import React,{useContext} from 'react'
-import Data from '../Data'
 
+import { useOutletContext } from 'react-router-dom';
 function About() {
-    const data = useContext(Data);
+    const data = useOutletContext();
   return (
-    <div>About {data}</div>
+    <div>About {data.name}</div>
   )
 }
 

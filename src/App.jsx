@@ -3,13 +3,16 @@ import {Outlet} from 'react-router-dom'
 import Navbar from './Component/Navbar'
 
 function App() {
-  
+  const data = {
+    name:"saurabh kumar",
+    rollnumber:45,
+}
 
   return (
     <>
     
       <Navbar/>
-      <Outlet />
+      <Outlet context={data}/>
     </>
   )
 }
