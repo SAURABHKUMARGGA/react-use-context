@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Error404 from "./pages/Error404";
+import { DataProvider } from "./Data";
 
 const router = createBrowserRouter([{
     path:"/",

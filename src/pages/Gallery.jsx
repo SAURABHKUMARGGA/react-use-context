@@ -30,7 +30,7 @@ function Gallery() {
   return (
     <>
     <div id="map"></div>
-           
+           hi
     </>
   )
 }
