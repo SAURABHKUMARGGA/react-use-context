@@ -2,6 +2,7 @@ import './App.css'
 import {Outlet} from 'react-router-dom'
 import Navbar from './Component/Navbar'
 import { DataProvider } from './Data'
+
 function App() {
   const data = {
     name:"saurabh kumar",
