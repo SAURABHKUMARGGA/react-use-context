@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Error404 from "./pages/Error404";
 import { DataProvider } from "./Data";
+import Form from "./pages/Form";
 
 const router = createBrowserRouter([{
     path:"/",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([{
       {
         path:"/gallery",
         element:<Gallery/>
+      },
+      {
+        path:"/form",
+        element:<Form/>
       }
     ]
   }])
